@@ -7,6 +7,29 @@
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
+     // Define o sistema de módulos usado na saída. "commonjs" é o padrão para Node.js.
+  // Define a versão alvo do JavaScript gerado. "es2020" permite usar recursos modernos.
+  // Lista de tipos personalizados incluídos. Está vazio, então nenhum tipo adicional é incluído manualmente.
+  // Habilita o uso de decoradores experimentais (ex: @Injectable). 
+  // Emite metadados de decoradores necessários para bibliotecas como TypeORM e Angular.
+  // Define o diretório base para resolução de módulos. "./" indica o diretório raiz do projeto.
+  // Permite mapear importações com caminhos personalizados. Está vazio, então não há mapeamentos definidos.
+  // Define os diretórios onde o compilador deve procurar arquivos de declaração de tipo.
+  // Permite a importação de arquivos JSON como módulos.
+  // Permite que arquivos .js também sejam compilados pelo TypeScript.
+  // Diretório onde os arquivos JavaScript compilados serão gerados.
+  // Permite importar módulos ES6 com `import x from '...'` mesmo que eles usem `module.exports`.
+  // Habilita interoperabilidade entre módulos CommonJS e ES Modules.
+  // Necessita de "allowSyntheticDefaultImports" ativado.
+  // relacionado ao JavaScript moderno e interoperabilidade.
+  // Garante que a capitalização dos nomes de arquivos seja consistente em importações.
+  // Se ativado, força que todas as variáveis tenham tipos explícitos (evita uso de `any` implícito).
+  // Está desativado aqui, então o uso de `any` implícito é permitido.
+  // Se ativado, força a checagem de nulidade estrita (útil para evitar erros em tempo de execução).
+  // Ativa checagens estritas ao usar funções `bind`, `call` e `apply`.
+  // Garante que todas as propriedades de uma classe sejam inicializadas no construtor.
+  // Impede que casos de `switch` "caiam" no próximo caso sem `break`.
+
     "module": "commonjs",
     "target": "es2020",
     "types": [],
