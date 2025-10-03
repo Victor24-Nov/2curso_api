@@ -1,0 +1,6 @@
+# pasta compilada
+/dist
+
+#pasta node modules
+/node_modules
+
